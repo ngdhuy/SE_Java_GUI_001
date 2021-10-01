@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane fx:id="main" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+    <ImageView id="Flag01" fitHeight="200" fitWidth="400" GridPane.columnIndex="0" GridPane.rowIndex="0">
+        <image>
+            <Image url="@./resources/CA.jpeg" />
+        </image>
+    </ImageView>
+    <ImageView id="Flag02" fitHeight="200" fitWidth="400" GridPane.columnIndex="0" GridPane.rowIndex="1">
+        <image>
+            <Image url="@./resources/US.jpeg" />
+        </image>
+    </ImageView>
+    <ImageView id="Flag03" fitHeight="200" fitWidth="400" GridPane.columnIndex="1" GridPane.rowIndex="0">
+        <image>
+            <Image url="@./resources/UK.jpeg" />
+        </image>
+    </ImageView>
+    <ImageView id="Flag04" fitHeight="200" fitWidth="400" GridPane.columnIndex="1" GridPane.rowIndex="1">
+        <image>
+            <Image url="@./resources/VN.jpeg" />
+        </image>
+    </ImageView>
+</GridPane>
